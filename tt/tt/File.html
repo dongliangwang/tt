@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<head>
+<title></title>
+</head>
+<body>
+<!-- 获取标签元素 -->
+<label id="label">这是 HTML 的 Label 标签的字符串</label>
+<h1 onclick="test(info)">请点击该文本</h1>
+<h1 onclick=" ttf.nslog('123')">请点击该文本</h1>
+<script>
+        var ttf;
+        ttf.nslog('123456');
+</script>
+</body>
+</html>
+<script type="text/javascript">
+// 获取 JS 变量
+var name = "这是 JavaScript 的变量";
+// 获取 JS 对象
+var obj = {
+    name : "张三",
+    age : 22,
+    address : "湖北省武汉市"
+};
+var ttf;
+
+ttf.nslog('123');
+
+// 获取 JS 函数
+function showAlert(info) {
+    window.alert(info);
+}
+
+function test(info) {
+   window.alert(info);
+}
+</script>
